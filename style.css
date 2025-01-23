@@ -1,0 +1,32 @@
+/* Impostiamo il font di tutta la pagina */
+body {
+    background-color: #f0f8ff;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.5s ease;
+  }
+  
+  #weatherResults {
+    margin-top: 30px;
+  }
+  
+  .container-fluid {
+    height: 100vh; /* Assicura che la pagina occupi l'intera altezza della finestra */
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  #currentWeather {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  ul#forecast {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #444;
+  }
+  
